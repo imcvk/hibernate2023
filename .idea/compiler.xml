@@ -10,6 +10,7 @@
         <module name="simple-web-application-using-hibernate" />
         <module name="simple-hibernate-eg-using-xml" />
         <module name="simple-hibernate-eg-using-annotations" />
+        <module name="hibernate-generator-classes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -13,6 +13,7 @@
         <module>simple-hibernate-eg-using-annotations</module>
         <module>simple-web-application-using-hibernate</module>
         <module>simple-hibernate-app-without-xml</module>
+        <module>hibernate-generator-classes</module>
     </modules>
     <dependencies>
         <dependency>
