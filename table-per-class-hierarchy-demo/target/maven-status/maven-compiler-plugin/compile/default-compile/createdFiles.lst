@@ -1,6 +1,0 @@
-config\HibernateConfig.class
-model\Animal.class
-AnimalDAO\AnimalDAO.class
-mainapp\MainApp.class
-model\Dog.class
-model\Cat.class
