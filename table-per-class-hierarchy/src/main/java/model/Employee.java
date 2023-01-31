@@ -1,9 +1,6 @@
 package model;
 
-import jakarta.persistence.Entity;
 import jakarta.persistence.*;
-import jakarta.persistence.InheritanceType;
-import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "employee_table_per_class_hierarchy")

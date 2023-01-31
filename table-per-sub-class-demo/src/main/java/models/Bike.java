@@ -1,13 +1,12 @@
 package models;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.PrimaryKeyJoinColumn;
 
 @Entity
 //@PrimaryKeyJoinColumn(name = "vehicleId")
-public class Bike extends Vehicle{
-String bikeName;
-String bikeNumber;
+public class Bike extends Vehicle {
+  String bikeName;
+  String bikeNumber;
 
   public Bike(String bikeName, String bikeNumber) {
     this.bikeName = bikeName;
@@ -19,7 +18,6 @@ String bikeNumber;
     this.bikeName = bikeName;
     this.bikeNumber = bikeNumber;
   }
-
 
   public Bike(String type, String name, String bikeName, String bikeNumber) {
     super(type, name);

@@ -2,10 +2,9 @@ package model;
 
 import jakarta.persistence.*;
 
-
 @Entity
-@Inheritance(strategy=InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name="animal_type")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "animal_type")
 public class Animal {
   @Id
   @GeneratedValue

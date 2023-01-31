@@ -1,11 +1,10 @@
 package models;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.PrimaryKeyJoinColumn;
 
 @Entity
 //@PrimaryKeyJoinColumn(name = "vehicleId")
-public class Car extends Vehicle{
+public class Car extends Vehicle {
   String carName;
   String carNumber;
 

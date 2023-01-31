@@ -14,7 +14,9 @@
         <module name="simple-hibernate-eg-using-xml" />
         <module name="simple-hibernate-eg-using-annotations" />
         <module name="simple-web-application-using-hibernate" />
+        <module name="table-per-concrete-class-demo" />
         <module name="hibernate-generator-classes" />
+        <module name="table-per-concrete-class" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

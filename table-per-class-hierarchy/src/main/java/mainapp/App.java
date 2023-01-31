@@ -1,7 +1,9 @@
 package mainapp;
 
 import dao.AnimalDAO;
-import model.*;
+import model.Contract_Employee;
+import model.Employee;
+import model.Regular_Employee;
 
 public class App {
   public static void main(String[] args) {

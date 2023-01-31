@@ -1,7 +1,9 @@
 package config;
 
-import models.*;
-
+import models.Animal;
+import models.Bird;
+import models.Fish;
+import models.Mammal;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;

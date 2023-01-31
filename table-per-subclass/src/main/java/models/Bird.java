@@ -1,6 +1,7 @@
 package models;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "Birds")
@@ -10,8 +11,6 @@ public class Bird extends Animal {
   private boolean canFly;
 
   // Getters and Setters
-
-
 
   public Bird(int numberOfWings, boolean canFly) {
     super();

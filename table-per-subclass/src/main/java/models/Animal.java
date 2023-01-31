@@ -3,20 +3,18 @@ package models;
 import jakarta.persistence.*;
 
 @Entity
-@Inheritance(strategy=InheritanceType.JOINED)
-@Table(name="Animals")
+@Inheritance(strategy = InheritanceType.JOINED)
+@Table(name = "Animals")
 public class Animal {
 
   @Id
-  @GeneratedValue(strategy=GenerationType.IDENTITY)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
   private String type;
   private String name;
   private int weight;
 
   // Getters and Setters
-
-
 
   public Animal(Long id, String type, String name, int weight) {
     this.id = id;

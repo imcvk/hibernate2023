@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="Mammals")
+@Table(name = "Mammals")
 public class Mammal extends Animal {
 
   private int numberOfLegs;

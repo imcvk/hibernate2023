@@ -10,8 +10,6 @@ public class Fish extends Animal {
   private boolean gills;
   private boolean livesInWater;
 
-
-
   public Fish(boolean gills, boolean livesInWater) {
     super();
     this.gills = gills;

@@ -1,6 +1,5 @@
 package dao;
 
-import jakarta.persistence.*;
 import model.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

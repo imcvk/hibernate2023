@@ -1,7 +1,6 @@
 package config;
 
 import assignment.AssignmentDemo;
-
 import identity.IdentityDemo;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;

@@ -16,7 +16,7 @@ public class ObjectDAO {
   }
 
   public static Session getSession() {
-    sessionFactory=getSessionFactory();
+    sessionFactory = getSessionFactory();
     session = sessionFactory.openSession();
     return session;
   }

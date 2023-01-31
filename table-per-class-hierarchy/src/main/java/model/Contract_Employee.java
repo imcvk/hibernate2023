@@ -1,15 +1,17 @@
 package model;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.DiscriminatorValue;
+import jakarta.persistence.Entity;
 
 @Entity
 @DiscriminatorValue("contractemployee")
-public class Contract_Employee extends Employee{
+public class Contract_Employee extends Employee {
 
-  @Column(name="pay_per_hour")
+  @Column(name = "pay_per_hour")
   private float pay_per_hour;
 
-  @Column(name="contract_duration")
+  @Column(name = "contract_duration")
   private String contract_duration;
 
   //setters and getters

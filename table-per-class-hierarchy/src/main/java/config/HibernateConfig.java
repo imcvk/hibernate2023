@@ -1,6 +1,8 @@
 package config;
 
-import model.*;
+import model.Contract_Employee;
+import model.Employee;
+import model.Regular_Employee;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
