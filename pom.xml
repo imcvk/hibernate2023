@@ -14,6 +14,10 @@
         <module>simple-web-application-using-hibernate</module>
         <module>simple-hibernate-app-without-xml</module>
         <module>hibernate-generator-classes</module>
+        <module>table-per-class-hierarchy</module>
+        <module>table-per-class-hierarchy-demo</module>
+        <module>table-per-subclass</module>
+        <module>table-per-sub-class-demo</module>
     </modules>
     <dependencies>
         <dependency>

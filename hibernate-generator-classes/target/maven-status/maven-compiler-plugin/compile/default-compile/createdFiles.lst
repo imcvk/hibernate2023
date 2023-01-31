@@ -1,0 +1,8 @@
+config\HibernateConfig.class
+table\TableDemo.class
+mainapp\MainApp.class
+assignment\AssignmentDemo.class
+uuid_hex\UUID_Hex.class
+identity\IdentityDemo.class
+object_dao\Object_DAO.class
+sequence\SequenceDemo.class
