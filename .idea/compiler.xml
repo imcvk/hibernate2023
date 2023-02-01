@@ -11,12 +11,15 @@
         <module name="one-to-one-join-table" />
         <module name="simple-hibernate-eg-using-annotations" />
         <module name="simple-web-application-using-hibernate" />
+        <module name="one-to-one-shared-primary-key" />
         <module name="hibernate-generator-classes" />
         <module name="table-per-subclass" />
         <module name="table-per-sub-class-demo" />
+        <module name="one-to-many-foreign-key-association" />
         <module name="one-to-one-foreign-key-association" />
         <module name="table-per-class-hierarchy" />
         <module name="simple-hibernate-eg-using-xml" />
+        <module name="one-to-many-test" />
         <module name="table-per-concrete-class-demo" />
         <module name="table-per-concrete-class" />
       </profile>
