@@ -11,6 +11,6 @@
         <property name="show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.connection.autocommit">true</property>
-        <mapping class="model.User"/>
+        <mapping class="model.Subscriber"/>
     </session-factory>
 </hibernate-configuration>
