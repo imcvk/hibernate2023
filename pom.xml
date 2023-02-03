@@ -30,6 +30,7 @@
         <module>many-to-one</module>
         <module>many-to-many-unidorectional</module>
         <module>many-to-many-bidirectional</module>
+        <module>hibernate-mapping-date-time-timestamp</module>
     </modules>
     <dependencies>
         <dependency>
@@ -46,6 +47,12 @@
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>

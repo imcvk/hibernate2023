@@ -1,7 +1,6 @@
 package config;
 
-import model.ReaderEntity;
-import model.SubscriptionEntity;
+import model.Book;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
@@ -24,7 +23,7 @@ public class HibernateConfig {
     p.put(Environment.SHOW_SQL, "true");
     p.put(Environment.HBM2DDL_AUTO, "update");
     configuration.setProperties(p);
-    configuration.addAnnotatedClass(ReaderEntity.class).addAnnotatedClass(SubscriptionEntity.class);
+    configuration.addAnnotatedClass(Book.class);
     ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(p).build();
     sessionFactory = configuration.buildSessionFactory(serviceRegistry);
     return sessionFactory;
