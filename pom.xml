@@ -31,6 +31,7 @@
         <module>many-to-many-unidorectional</module>
         <module>many-to-many-bidirectional</module>
         <module>hibernate-mapping-date-time-timestamp</module>
+        <module>hibernate-fetch-type</module>
     </modules>
     <dependencies>
         <dependency>

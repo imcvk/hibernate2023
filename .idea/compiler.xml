@@ -11,6 +11,7 @@
         <module name="many-to-many-unidorectional" />
         <module name="table-per-class-hierarchy-demo" />
         <module name="one-to-one-join-table" />
+        <module name="hibernate-fetch-type" />
         <module name="many-to-one" />
         <module name="many-to-many-bidirectional" />
         <module name="one-to-many-link-table" />
