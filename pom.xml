@@ -32,6 +32,7 @@
         <module>many-to-many-bidirectional</module>
         <module>hibernate-mapping-date-time-timestamp</module>
         <module>hibernate-fetch-type</module>
+        <module>hibernate-embedding-object</module>
     </modules>
     <dependencies>
         <dependency>

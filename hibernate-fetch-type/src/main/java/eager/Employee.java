@@ -1,4 +1,4 @@
-package lazy;
+package eager;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -9,11 +9,11 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Student {
+public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    int id;
-    String sname;
-    @OneToOne(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
-    Address address;
+    int eId;
+    String eName;
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    Department department;
 }

@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/collection-mapping-list/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dummy-data-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dummy-data-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hibernate-embedding-object/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hibernate-embedding-object/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hibernate-fetch-type/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hibernate-fetch-type/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hibernate-generator-classes/src/main/java" charset="UTF-8" />

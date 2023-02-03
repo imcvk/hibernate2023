@@ -21,6 +21,7 @@
         <module name="one-to-one-shared-primary-key" />
         <module name="hibernate-generator-classes" />
         <module name="table-per-subclass" />
+        <module name="hibernate-embedding-object" />
         <module name="table-per-sub-class-demo" />
         <module name="one-to-many-foreign-key-association" />
         <module name="one-to-one-foreign-key-association" />
