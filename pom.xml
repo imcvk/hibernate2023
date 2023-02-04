@@ -33,6 +33,7 @@
         <module>hibernate-mapping-date-time-timestamp</module>
         <module>hibernate-fetch-type</module>
         <module>hibernate-embedding-object</module>
+        <module>hibernate-hql</module>
     </modules>
     <dependencies>
         <dependency>
