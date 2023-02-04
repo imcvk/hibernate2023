@@ -1,6 +1,9 @@
 package config;
 
 import hql_crud.Employee;
+
+import hql_misc.Answer;
+import hql_misc.Question;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
@@ -23,7 +26,7 @@ public class HibernateConfig {
     p.put(Environment.SHOW_SQL, "true");
     p.put(Environment.HBM2DDL_AUTO, "update");
     configuration.setProperties(p);
-    configuration.addAnnotatedClass(Employee.class);
+    configuration.addAnnotatedClass(Employee.class).addAnnotatedClass(Answer.class).addAnnotatedClass(Question.class);
     ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(p).build();
     sessionFactory = configuration.buildSessionFactory(serviceRegistry);
     return sessionFactory;
