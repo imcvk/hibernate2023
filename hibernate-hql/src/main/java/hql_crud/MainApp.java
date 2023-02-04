@@ -2,32 +2,40 @@ package hql_crud;
 
 import dummydata.DummyUserProvider;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainApp {
   public static void main(String[] args) {
     DAO dao = new DAO();
     DummyUserProvider provider = new DummyUserProvider();
-
-    for(int i = 0; i < 20; i++) {
-      Employee e = new Employee();
-      e.setEname(provider.getFakeEmployeeNameFull());
-      dao.saveObject(e);
-    }
-    /**
-     * fetch list of employees using hql
+    List<Employee> employees = new ArrayList<>();
+    Employee e = new Employee();
+//    for(int i = 0; i < 20; i++) {
+//      e = new Employee();
+//      e.setEname(provider.getFakeEmployeeNameFull());
+//      dao.saveObject(e);
+//    }
+//    /**-----------------------------------------------------------------------------------------------------------------
+//     * fetch list of employees using hql
+//     * */
+//    employees = dao.get_all_employees_using_HQL();
+//    for(Employee emp : employees)
+//      System.out.println(emp);
+//    /**-----------------------------------------------------------------------------------------------------------------
+//     * unique record using hql
+//     * */
+//     e= dao.getUniqueEmployee(1);
+//    System.out.println(emp);
+//    /**-----------------------------------------------------------------------------------------------------------------
+//     * Delete
+//     * */
+//    System.out.println("Number of records deleted: " + dao.delete_using_hql(11));
+    /**-----------------------------------------------------------------------------------------------------------------
+     * Pagination HQL
      * */
-    List<Employee> employees = dao.get_all_employees_using_HQL();
-    for(Employee e : employees)
-      System.out.println(e);
-    /**
-     * unique record using hql
-     * */
-    Employee e = dao.getUniqueEmployee(1);
-    System.out.println(e);
-    /**
-     * Delete
-     * */
-    System.out.println("Number of records deleted: " + dao.delete_using_hql(11));
+    employees = dao.hql_Pagination();
+    for(Employee employee : employees)
+      System.out.println(employee);
   }
 }

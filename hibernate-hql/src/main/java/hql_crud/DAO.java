@@ -44,9 +44,9 @@ public class DAO {
     query.setParameter("x", id);
     return (Employee) query.getSingleResult();
   }
-String DELETE_HQL="delete from Employee where eid=:empid";
-  public int delete_using_hql(int id) {
 
+  String DELETE_HQL = "delete from Employee where eid=:empid";
+  public int delete_using_hql(int id) {
     session = getSession();
     transaction = session.beginTransaction();
     Query query = session.createQuery(DELETE_HQL);
@@ -55,5 +55,14 @@ String DELETE_HQL="delete from Employee where eid=:empid";
     transaction.commit();
     session.close();
     return i;
+  }
+
+  public List<Employee> hql_Pagination() {
+    session = getSession();
+    Query query = session.createQuery(ALL_SELECTOR_HQL, Employee.class);
+    query.setFirstResult(5);
+    query.setMaxResults(5);
+    List<Employee> employees = query.getResultList();
+    return employees;
   }
 }
