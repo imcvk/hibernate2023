@@ -34,6 +34,7 @@
         <module>hibernate-fetch-type</module>
         <module>hibernate-embedding-object</module>
         <module>hibernate-hql</module>
+        <module>hibernate-native-sql</module>
     </modules>
     <dependencies>
         <dependency>

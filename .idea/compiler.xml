@@ -15,6 +15,7 @@
         <module name="one-to-one-shared-primary-key" />
         <module name="table-per-subclass" />
         <module name="table-per-sub-class-demo" />
+        <module name="hibernate-native-sql" />
         <module name="one-to-one-foreign-key-association" />
         <module name="table-per-class-hierarchy" />
         <module name="simple-hibernate-eg-using-xml" />
