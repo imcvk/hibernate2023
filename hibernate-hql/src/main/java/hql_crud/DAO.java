@@ -46,6 +46,7 @@ public class DAO {
   }
 
   String DELETE_HQL = "delete from Employee where eid=:empid";
+
   public int delete_using_hql(int id) {
     session = getSession();
     transaction = session.beginTransaction();
@@ -60,9 +61,23 @@ public class DAO {
   public List<Employee> hql_Pagination() {
     session = getSession();
     Query query = session.createQuery(ALL_SELECTOR_HQL, Employee.class);
-    query.setFirstResult(5);
+    query.setFirstResult(0);
     query.setMaxResults(5);
     List<Employee> employees = query.getResultList();
     return employees;
+  }
+
+  String UPDATE_HQL = "Update Employee e set e.ename=:name where e.eid=:id";
+
+  public int update_employee_HQL(Employee e) {
+    session = getSession();
+    transaction = session.beginTransaction();
+    Query query = session.createQuery(UPDATE_HQL);
+    query.setParameter("name", e.getEname());
+    query.setParameter("id", e.getEid());
+    int no_of_rows_updated = query.executeUpdate();
+    transaction.commit();
+    session.close();
+    return no_of_rows_updated;
   }
 }
