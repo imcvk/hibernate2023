@@ -36,19 +36,19 @@
         <module>hibernate-hql</module>
         <module>hibernate-native-sql</module>
         <module>hibernate-caching</module>
+        <module>hibernate-namedQueries</module>
     </modules>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
         <dependency>
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>6.1.6.Final</version>
         </dependency>
-        <dependency>
-            <groupId>org.hibernate.orm</groupId>
-            <artifactId>hibernate-ehcache</artifactId>
-            <version>6.0.0.Alpha7</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.hibernate.orm</groupId>-->
+<!--            <artifactId>hibernate-ehcache</artifactId>-->
+<!--            <version>6.0.0.Alpha7</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
@@ -70,7 +70,6 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
         </dependency>
-
     </dependencies>
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
