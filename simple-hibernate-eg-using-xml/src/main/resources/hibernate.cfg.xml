@@ -10,6 +10,6 @@
         <property name="hibernate.connection.autocommit">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.show_sql">true</property>
-        <mapping resource="employee.hbm.xml"/>
+        <mapping resource="student.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

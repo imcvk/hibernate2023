@@ -1,14 +1,15 @@
 package config;
 
-import hql_crud.Employee;
+import first_level_cache.model.Department;
+import first_level_cache.model.Employee;
 
-import hql_misc.Answer;
-import hql_misc.Question;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
+import second_level_cache.model.Stream;
+import second_level_cache.model.Student;
 
 import java.util.Properties;
 
@@ -25,9 +26,11 @@ public class HibernateConfig {
         p.put(Environment.PASS, "root");
         p.put(Environment.SHOW_SQL, "true");
         p.put(Environment.HBM2DDL_AUTO, "update");
+        p.put(Environment.USE_SECOND_LEVEL_CACHE, true);
+        p.put(Environment.CACHE_REGION_FACTORY, "org.hibernate.cache.ehcache.internal.EhcacheRegionFactory");
         configuration.setProperties(p);
-        configuration.addAnnotatedClass(Employee.class).addAnnotatedClass(Answer.class)
-                .addAnnotatedClass(Question.class);
+        configuration.addAnnotatedClass(Employee.class).addAnnotatedClass(Department.class)
+                .addAnnotatedClass(Student.class).addAnnotatedClass(Stream.class);
         ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(p).build();
         sessionFactory = configuration.buildSessionFactory(serviceRegistry);
         return sessionFactory;
