@@ -30,6 +30,7 @@
         <module name="one-to-many-link-table" />
         <module name="simple-web-application-using-hibernate" />
         <module name="hibernate-namedQueries" />
+        <module name="hibernate-criteria-demo" />
         <module name="hibernate-generator-classes" />
         <module name="hibernate-embedding-object" />
         <module name="one-to-many-foreign-key-association" />

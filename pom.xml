@@ -38,6 +38,7 @@
         <module>hibernate-caching</module>
         <module>hibernate-namedQueries</module>
         <module>hibernate-criteria</module>
+        <module>hibernate-criteria-demo</module>
     </modules>
     <dependencies>
         <dependency>
