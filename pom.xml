@@ -37,6 +37,7 @@
         <module>hibernate-native-sql</module>
         <module>hibernate-caching</module>
         <module>hibernate-namedQueries</module>
+        <module>hibernate-criteria</module>
     </modules>
     <dependencies>
         <dependency>

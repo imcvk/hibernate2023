@@ -14,6 +14,7 @@
         <module name="simple-hibernate-eg-using-annotations" />
         <module name="hibernate-mapping-date-time-timestamp" />
         <module name="one-to-one-shared-primary-key" />
+        <module name="hibernate-criteria" />
         <module name="table-per-subclass" />
         <module name="table-per-sub-class-demo" />
         <module name="hibernate-native-sql" />
