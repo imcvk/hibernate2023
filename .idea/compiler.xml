@@ -9,7 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="simple-hibernate-app-without-xml" />
-        <module name="many-to-many-unidorectional" />
+        <module name="many-to-many-unidirectional" />
         <module name="many-to-many-bidirectional" />
         <module name="simple-hibernate-eg-using-annotations" />
         <module name="hibernate-mapping-date-time-timestamp" />
