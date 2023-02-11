@@ -13,7 +13,7 @@ import java.util.List;
 public class CriteriaUtil {
 
 
-    public void selectAll() {
+    public void selectAll() { 
         Session session = HibernateConfig.getSessionFactory().openSession();
         CriteriaBuilder criteriaBuilder = session.getCriteriaBuilder();
         CriteriaQuery<Employee> criteriaQuery = criteriaBuilder.createQuery(Employee.class);

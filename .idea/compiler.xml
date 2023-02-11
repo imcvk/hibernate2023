@@ -15,6 +15,7 @@
         <module name="hibernate-mapping-date-time-timestamp" />
         <module name="one-to-one-shared-primary-key" />
         <module name="hibernate-criteria" />
+        <module name="hibernate-crud" />
         <module name="table-per-subclass" />
         <module name="table-per-sub-class-demo" />
         <module name="hibernate-native-sql" />

@@ -33,7 +33,7 @@ public class DAO {
   public void hql_join() {
     session = getSession();
     Query hqlJoin = session.createQuery(HQL_JOIN);
-    List objects = hqlJoin.getResultList();
+    List<Object> objects = hqlJoin.getResultList();
     for(Object o : objects)
       System.out.println(Arrays.toString((Object[]) o));
   }

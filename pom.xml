@@ -39,6 +39,7 @@
         <module>hibernate-namedQueries</module>
         <module>hibernate-criteria</module>
         <module>hibernate-criteria-demo</module>
+        <module>hibernate-crud</module>
     </modules>
     <dependencies>
         <dependency>
