@@ -41,6 +41,7 @@
         <module>hibernate-criteria-demo</module>
         <module>hibernate-crud</module>
         <module>hibernate-collection-mapping</module>
+        <module>hibernate-crud-2</module>
     </modules>
     <dependencies>
         <dependency>

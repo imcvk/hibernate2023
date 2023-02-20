@@ -8,6 +8,7 @@ import model.UserDetails;
 
 import java.util.ArrayList;
 import java.util.List;
+
 //source - https://www.dineshonjava.com/hibernate-3-on-baby-steps/
 public class MainApp {
   public static void main(String[] args) {

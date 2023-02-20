@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dummy-data-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/many-to-many-unidorectional/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

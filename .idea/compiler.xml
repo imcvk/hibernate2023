@@ -36,6 +36,7 @@
         <module name="hibernate-criteria-demo" />
         <module name="hibernate-generator-classes" />
         <module name="hibernate-embedding-object" />
+        <module name="hibernate-crud-2" />
         <module name="one-to-many-foreign-key-association" />
         <module name="one-to-many-test-link-table" />
         <module name="table-per-concrete-class-demo" />
