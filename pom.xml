@@ -42,6 +42,7 @@
         <module>hibernate-crud</module>
         <module>hibernate-collection-mapping</module>
         <module>hibernate-crud-2</module>
+        <module>get_vs_load</module>
     </modules>
     <dependencies>
         <dependency>
@@ -67,7 +68,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.26</version>
+            <version>1.18.30</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
